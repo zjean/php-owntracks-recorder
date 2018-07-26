@@ -44,7 +44,29 @@ if ($data['_type'] == 'location') {
 	# CREATE TABLE locations (dt TIMESTAMP, tid CHAR(2), lat DECIMAL(9,6), lon DECIMAL(9,6));
 	
 	//http://owntracks.org/booklet/tech/json/
-	//iiiissddissiiidsiis
+	
+	// Declare params
+
+	$accuracy = null;
+	$altitude = null;
+	$battery_level = null;
+	$heading = null;
+	$description = null;
+	$event = null;
+	$latitude;
+	$longitud;
+	$radius = null;
+	$trig = null;
+	$tracker_id = null;
+	$epoch;
+	$vertical_accuracy = null;
+	$velocity = null;
+	$pressure = null;
+	$connection = null;
+	$place_id = null;
+	$osm_id = null;
+	
+
     if (array_key_exists('acc', $data)) $accuracy = intval($data['acc']);
     if (array_key_exists('alt', $data)) $altitude = intval($data['alt']);
     if (array_key_exists('batt', $data)) $battery_level = intval($data['batt']);
