@@ -41,6 +41,12 @@ That's it !
 ```
 3. Create datatable using schema_mysql.sql or schema_sqlite.sql (in the 'sql' directory)
 
+4. Setup authentication using a copy of .htaccess.sample.
+Create password file outside public folder by using
+/path/to/htpasswd -c /etc/htpasswd/.htpasswd user1
+
+the -c is used to create a new file.
+
 #### Owntracks app
 Follow [Owntracks Booklet](http://owntracks.org/booklet/features/settings/) to setup your Owntracks app :
 
