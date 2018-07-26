@@ -48,7 +48,7 @@ if ($data['_type'] == 'location') {
 	// Declare params
 
 	$accuracy = null;
-	$altitude = null;
+	$altitude = 0;
 	$battery_level = null;
 	$heading = null;
 	$description = null;
