@@ -1,5 +1,6 @@
 config.inc.php
 owntracks.db3
+log/record_log.txt
 
 # Windows image file caches
 Thumbs.db
